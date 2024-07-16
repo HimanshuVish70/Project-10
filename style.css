@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    background-color: rgb(183, 168, 146);
+}
+header{
+    background-image: url(./Assets/StockCake-Shopping\ Icon\ Montage_1721115086.jpg);
+    filter: brightness(110%);
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit:cover;
+}
+header h1{
+    font-size: 5rem;
+    font-weight: 800;
+    color: rgb(64, 55, 2);
+    filter: contrast(100%);
+    background-color: yellow;
+    border-radius: 25px;
+    padding: 0.5rem;
+}
+.list_container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 10vw;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: antiquewhite;
+    /* background-color: white; */
+}
+.list_container .prod_list{
+    width: 13rem;
+    border: 0px solid;
+    border-radius: 10px;
+    height: 22rem;
+    background-color: rgba(233, 221, 205, 0.71);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.list_container .prod_list img{
+    object-position: center;
+    object-fit: cover;
+    width: 13rem;
+    height: 15rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.list_container .prod_list h2,h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(207, 113, 7);
+    font-weight: 1000;
+    margin-top: 0.5rem;
+}
+.list_container .prod_list button{
+    padding: 0.3rem;
+    margin-left: 3.8rem;
+    margin-top: 0.5rem;
+    background-color: rgb(235, 174, 99);
+    border: 1px solid;
+    border-radius: 5px;
+    color: rgb(150, 101, 2);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+.list_container .prod_list button:hover{
+    color: rgb(21, 1, 1);
+    background-color: rgb(235, 197, 7);
+    transition: 0.2s;
+}
+
+.desc{
+    background-color: rgb(211, 154, 56);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.container{
+    margin: 3rem 15vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+    gap: 3rem;
+}
+.container img{
+    width: 40%;
+    height: 40%;
+}
+.container h1{
+    text-align: center;
+    font-size: 4rem;
+}
+.container span,h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.container p{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.container h3,p{
+    display: inline;
+}
+.desc .classes button{
+    padding: 1rem;
+    width: 5rem;
+    border-radius: 10px;
+    border: 1px solid;
+    background-color: blanchedalmond;
+    margin-left: 50rem;
+    cursor: pointer;
+}
+.desc .classes button:hover{
+    color: rgb(21, 1, 1);
+    background-color: rgb(235, 197, 7);
+    transition: 0.2s;
+}
+.desc .img{
+    width: 50rem;
+    height: 25rem;
+}
